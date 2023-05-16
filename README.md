@@ -126,7 +126,7 @@ Road Signs Detector (English version)
 ===
 Road Signs Detector is a mobile application for Android. It recognizes and names road signs.
 
-This application is demonstrational. Its task is to demonstrate the possibility of real-time recognition of a wide class of road signs with high accuracy using a conventional smartphone.
+This application is demonstrational. Its purpose is to demonstrate the possibility of real-time recognition of a wide class of road signs with high accuracy using a conventional smartphone.
 
 Demonstration of the application
 ---
