@@ -142,8 +142,8 @@ public class SignClassifier {
             // Coords rescale
             int newX = (rec.left * 9 + 2) / 4;
             int newY = (rec.top * 9 + 2) / 4;
-            int newX2 = (rec.right * 9 - 7) / 4 + 1;
-            int newY2 = (rec.bottom * 9 - 7) / 4 + 1;
+            int newX2 = (rec.right * 9 + 2) / 4;
+            int newY2 = (rec.bottom * 9 + 2) / 4;
             int newWidth = newX2 - newX;
             int newHeight = newY2 - newY;
 
