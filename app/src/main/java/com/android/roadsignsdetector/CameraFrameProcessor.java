@@ -160,8 +160,8 @@ public class CameraFrameProcessor implements FrameProcessor {
 
                 // Make recognitions include right and bottom border
                 for (Recognition r: rawRecognitions) {
-                    r.right = Math.min(r.right + 1, mWatermarkWidth - 1);
-                    r.bottom = Math.min(r.bottom + 1, mWatermarkHeight - 1);
+                    r.right = Math.min(r.right + 1, mDetector.getInputWidth() - 1);
+                    r.bottom = Math.min(r.bottom + 1, mDetector.getInputHeight() - 1);
                 }
 
                 // Filter recognitions

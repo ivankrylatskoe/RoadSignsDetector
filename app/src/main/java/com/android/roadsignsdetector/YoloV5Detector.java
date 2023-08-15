@@ -148,5 +148,13 @@ public class YoloV5Detector  {
     public ByteBuffer getImgData(){
         return imgData;
     }
+	
+    public int getInputWidth() {
+        return inputWidth;
+    }
+
+	public int getInputHeight() {
+        return inputHeight;
+    }
 
 }
